@@ -1,0 +1,29 @@
+{
+    "name": "asimov/solaria/modules/cotizadorMqh",
+    "description": "Cotizador de productos para para Sitio Gtd con CMS solaria",
+    "license": "MIT",
+    "keywords": ["cotizador", "manquehue", "solaria", "asimov"],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Cidro/solaria-catalog-module.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Pablo Canales",
+            "email": "pablo@asimov.cl"
+        }
+    ],
+    "require": {
+        "asimov/solaria/modules/catalog": "0.0.1",
+    },
+    "require-dev": {
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Asimov\\Solaria\\Modules\\CotizadorMqh\\": "src/"
+        }
+    }
+}
